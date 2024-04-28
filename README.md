@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 to install
 ```bash
-git@github.com:rahul2214/wasserstoff-FrontendTask.git
+https://github.com/rahul2214/wasserstoff-FrontendTask.git
 ```
 select directory
 ```bash
