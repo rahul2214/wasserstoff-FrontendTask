@@ -45,7 +45,7 @@ export default function Home() {
               <Image src="/image145.png" alt="" width={286} height={431} />
             </div>
             {/* Text: 'MUSIC' */}
-            <div className="absolute pl-3 w-56 h-20 font-Lexend font-bold text-6xl text-black" style={{ left: '1084px', top: '500px' }}>MUSIC</div>
+            <div className="absolute pl-3 w-56 h-20 font-Lexend font-bold text-6xl text-black" style={{ left: '1050px', top: '500px' }}>MUSIC</div>
           </div>
           {/* Text: 'ARTIST' */}
           <div className="absolute w-60 h-11 left-56 font-Lexend font-bold text-6xl text-black" style={{ top: '605px' }}>ARTIST</div>
