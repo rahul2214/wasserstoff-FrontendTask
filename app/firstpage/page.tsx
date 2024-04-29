@@ -131,7 +131,7 @@ export default function FirstPage() {
                         <Image style={{ top: '884px', left: '949px' }} className="absolute w-28 h-28 left-949 top-884 rounded-md" src="/qr.png" alt="QR" width={105} height={105} />
 
                         {/* Button: Join Waitlist */}
-                        <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14  bg-yellow-300 rounded-full" style={{ top: '937px' }}>
+                        <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14  bg-yellow-300 rounded-full" style={{ top: '937px',left:'1200px' }}>
                             <div className=" w-40 h-8 font-lexend font-bold text-2xl text-gray-700">Join Waitlist</div>
                         </button>
                     </div>
