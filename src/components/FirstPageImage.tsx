@@ -19,6 +19,7 @@ const FirstPageImages = () => {
     };
 
     return (
+        <main className="main"> 
         <Slider {...settings}>
             {/* Slide 1 */}
             <div>
@@ -41,6 +42,7 @@ const FirstPageImages = () => {
                 <Image src="/image16.png" alt="Slide 4" className="p-3" width={564} height={705} />
             </div>
         </Slider>
+        </main>
     );
 };
 

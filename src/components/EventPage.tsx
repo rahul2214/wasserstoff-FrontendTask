@@ -6,6 +6,7 @@ const EventPage = () => {
 
 
     return (
+        <main className="main">
         <div className="flex flex-col items-center justify-center h-screen">
             {/* Title: Explore Your First Event */}
             <h1 className="absolute w-72 h-16 top-14 font-lexend font-bold text-white text-2xl" style={{ left: '958px' }}>Explore Your First Event</h1>
@@ -53,6 +54,7 @@ const EventPage = () => {
                 </button>
             </div>
         </div>
+        </main>
     );
 };
 

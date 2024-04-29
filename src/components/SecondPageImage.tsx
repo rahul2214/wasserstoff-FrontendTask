@@ -17,8 +17,7 @@ const SecondPageImages = () => {
         slidesToScroll: 1 // Number of slides to scroll
     };
 
-    return (
-        // Slider component with settings
+    return (<main className="main">
         <Slider {...settings}>
             {/* Slide 1 */}
             <div>
@@ -59,6 +58,7 @@ const SecondPageImages = () => {
             </div>
             {/* Add more slides as needed */}
         </Slider>
+        </main>
     );
 };
 

@@ -1,4 +1,3 @@
-
 import EventPage from '@/components/EventPage'; // Importing EventPage component
 import Link from 'next/link'; // Importing Link component from Next.js
 import FirstPageImages from '@/components/FirstPageImage'; // Importing FirstPageImages component
@@ -9,6 +8,7 @@ import Roll from '@/components/Roll'; // Importing Roll component
 export default function FirstPage() {
 
     return (
+        <main className="main">
         <div className="container">
             {/* Header section */}
             <header className=" flex flex-row items-center p-0 absolute w-40 h-16 left-20 top-6">
@@ -17,7 +17,7 @@ export default function FirstPage() {
                 <Image src="/logo.png" alt="Logo" width={163} height={64} />
             </header>
             {/* Main section */}
-            <main className="main">
+            
                 {/* Text: ASTRIX EVENTS */}
                 <div className="absolute w-96 text-9xl left-9 top-40 flex items-center font-lexend font-bold text-white text-opacity-20" >
                     ASTR
@@ -31,7 +31,7 @@ export default function FirstPage() {
                 <div className="absolute left-14 top-56" style={{ height: '600px', width: '750px' }}>
                     <FirstPageImages />
                 </div>
-            </main>
+        
             {/* Navigation buttons */}
             <div className="toggle">
                 <div className="rectangle1">
@@ -46,5 +46,6 @@ export default function FirstPage() {
             {/* Displaying EventPage component */}
             <EventPage />
         </div>
+        </main>
     )
 }

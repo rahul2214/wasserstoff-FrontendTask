@@ -5,6 +5,7 @@ import Image from 'next/image';
 // Roll component
 const Roll = () => {
     return (
+        <main className="main">
         <div className='Roll'>
             {/* Rectangle container */}
             <div className='Rectangle'>
@@ -19,6 +20,7 @@ const Roll = () => {
                 </div>
             </div>
         </div>
+        </main>
     );
 };
 

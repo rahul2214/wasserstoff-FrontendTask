@@ -7,6 +7,7 @@ import SecondPageImages from '@/components/SecondPageImage'; // Importing Second
 export default function SecondPage() {
 
     return (
+        <main className="main">
         <div className="container">
             {/* Header section */}
             <header className=" flex flex-row items-center p-0 absolute w-40 h-16 left-20 top-6">
@@ -15,12 +16,12 @@ export default function SecondPage() {
                 <Image src="/logo.png" alt="Logo" width={163} height={64} />
             </header>
             {/* Main section */}
-            <main className="main">
+            
                 {/* Text: ASTRIX COLLECTIBLE */}
                 <div className="absolute w-96 left-9 top-40 flex items-center font-lexend font-bold text-white text-opacity-20 text-9xl">ASTR
                     <br /> IX
                     <br /><br />COLL <br />ECTI <br />BLE</div>
-            </main>
+    
             {/* Displaying SecondPageImages component */}
             <div className="absolute left-14 top-40" style={{ height: '600px', width: '750px' }}>
                 <SecondPageImages />
@@ -90,5 +91,6 @@ export default function SecondPage() {
                 </div>
             </div>
         </div>
+        </main>
     )
 }
