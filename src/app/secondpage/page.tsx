@@ -74,8 +74,29 @@ export default function SecondPage() {
                             </div>
                         </div>
                     </div>
-                    {/* Add more cards as needed */}
-                </div>
+                        <div className="flex flex-row items-start gap-3 absolute w-164.08 h-56 left-0 top-60"> <div className='CardSmall'>
+                            <div className='a2024'><div className='t2024'>2024</div></div>
+                            <div className='ByPablo'>By Pablo</div>
+                            <div className='CollectibleName'>Collectible Name</div>
+
+                            <div className='cardImage'>
+                                <Image src="/image14.png" alt="first" width={143} height={179} />
+
+                            </div>
+                        </div></div>
+                        <div className="flex flex-row items-start gap-3 absolute w-164.08 h-56 left-48 top-60">
+                            <div className='CardSmall'>
+                                <div className='a2024'><div className='t2024'>2024</div></div>
+                                <div className='ByPablo'>By Pablo</div>
+                                <div className='CollectibleName'>Collectible Name</div>
+
+                                <div className='cardImage'>
+                                    <Image src="/image14.png" alt="first" width={143} height={179} />
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>                </div>
             </div>
             {/* Button: Join Waitlist */}
             <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14 bg-yellow-300 rounded-full" style={{ top: '937px' }}>
