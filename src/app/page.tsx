@@ -4,7 +4,7 @@ import Link from "next/link"
 // This is the main component for the Home page
 export default function Home() {
   return (
-    // Container for the entire content
+    <main>
     <div className="Group1171274884">
       {/* Link to navigate to '/firstpage' */}
       <Link href={'/firstpage'}>
@@ -82,5 +82,6 @@ export default function Home() {
         </div>
       </Link>
     </div>
+      </main>
   )
 }
