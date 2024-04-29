@@ -7,7 +7,7 @@ export default function Home() {
     <main className="main">
     <div className="Group1171274884">
       {/* Link to navigate to '/firstpage' */}
-      <Link href={'/firstpage'}>
+            <Link href="/firstpage">
         {/* Header section */}
         <header className="flex flex-row items-center p-0 absolute w-96 h-12 left-24 top-24">
           {/* Logo */}
