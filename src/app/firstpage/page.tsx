@@ -1,4 +1,3 @@
-"use client"
 import EventPage from '@/components/EventPage'; // Importing EventPage component
 import Link from 'next/link'; // Importing Link component from Next.js
 import FirstPageImages from '@/components/FirstPageImage'; // Importing FirstPageImages component
