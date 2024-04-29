@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 export default function SecondPage() {
     const settings = {
         infinite: true, // Infinite loop
-        speed: 100, // Transition speed
+        speed: 100, // Transition speed which is 0.1sec
         autoplay: true, // Autoplay
         centerMode: true, // Center mode
         slidesToShow: 1.6, // Number of slides visible at a time
@@ -91,9 +91,9 @@ export default function SecondPage() {
                         </div>
                     </div>
                 </div>            {/* Text: Explore Your First Collectible */}
-            <div className="absolute w-80 h-16 left-2/3 top-14 font-bold text-white text-2xl leading-32"> Explore Your First Collectible</div>
+            <div className="absolute w-80 h-16 top-14 font-bold text-white text-2xl leading-32" style={{left:'992px'}}> Explore Your First Collectible</div>
             {/* Collection information */}
-            <div className="absolute w-96 h-96 left-2/3 top-0">
+                <div className="absolute w-96 h-96 top-0" style={{ left: '992px' }}>
                 <div className="absolute flex flex-col items-start p-0 gap-8 top-40 w-96 h-376 left-0 top-168">
                     <div className=" flex flex-col items-start p-0 gap-12 w-316 h-302 flex-none order-0 flex-grow-0">
                         {/* Text: Meta Lives */}
@@ -120,7 +120,7 @@ export default function SecondPage() {
                     </div>
                 </div>
                 {/* Card section */}
-                <div className="absolute w-448 h-225 left-992 top-full">
+                <div className="absolute w-448 h-225  top-full">
                     <div className="flex flex-row items-start gap-2 absolute w-164.08 h-56 left-96 top-60">
                         {/* Card */}
                         <div className='CardSmall'>
@@ -145,7 +145,8 @@ export default function SecondPage() {
                                 <Image src="/image14.png" alt="first" width={143} height={179} />
 
                             </div>
-                        </div></div>
+                        </div>
+                        </div>
                         <div className="flex flex-row items-start gap-3 absolute w-164.08 h-56 left-48 top-60">
                             <div className='CardSmall'>
                                 <div className='a2024'><div className='t2024'>2024</div></div>
@@ -162,7 +163,7 @@ export default function SecondPage() {
                                 
             </div>
             {/* Button: Join Waitlist */}
-            <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14 bg-yellow-300 rounded-full" style={{ top: '937px' }}>
+            <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14 bg-yellow-300 rounded-full" style={{ top: '937px',left:'1200px' }}>
                 <div className=" w-40 h-8 font-lexend font-bold text-2xl text-gray-700">Join Waitlist</div>
             </button>
             {/* Navigation buttons */}
