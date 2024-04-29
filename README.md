@@ -39,6 +39,9 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 project explanation link  :  
 https://drive.google.com/file/d/1_u5__WrUl19hJj0QhCKHftXX3o8R9AZM/view?usp=drivesdk
 
+Project Hosted Link :
+https://wasserstoff-frontend-task-hazel.vercel.app/
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
