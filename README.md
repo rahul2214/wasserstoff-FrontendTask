@@ -37,7 +37,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 project explanation link  :  
-https://drive.google.com/file/d/1_u5__WrUl19hJj0QhCKHftXX3o8R9AZM/view?usp=drivesdk
+https://drive.google.com/file/d/1I-vw9BKPGvHq-V3QyWh8VK0gaTuroPEj/view?usp=sharing
 
 Project Hosted Link :
 https://wasserstoff-frontend-task-hazel.vercel.app/
