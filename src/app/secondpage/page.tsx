@@ -96,7 +96,7 @@ export default function SecondPage() {
                                 </div>
                             </div>
                         </div>
-                    </div>                </div>
+                      </div>
             </div>
             {/* Button: Join Waitlist */}
             <button className="flex flex-row justify-center items-center p-2 gap-2 absolute w-48 h-14 right-14 bg-yellow-300 rounded-full" style={{ top: '937px' }}>
