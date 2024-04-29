@@ -4,7 +4,7 @@ import Image from 'next/image'; // Importing Image component from Next.js
 import SecondPageImages from '@/components/SecondPageImage'; // Importing SecondPageImages component
 
 // Home page component
-export default function Home() {
+export default function SecondPage() {
 
     return (
         <div className="container">

@@ -6,7 +6,7 @@ import Image from 'next/image'; // Importing Image component from Next.js
 import Roll from '@/components/Roll'; // Importing Roll component
 
 // Home page component
-export default function Home() {
+export default function FirstPage() {
 
     return (
         <div className="container">
