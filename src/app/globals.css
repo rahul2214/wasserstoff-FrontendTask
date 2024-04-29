@@ -432,7 +432,7 @@ body {
 }
 
 .BETWEEN { 
-  left: 576px;
+  left: 550px;
   top: 500px;
   background-color: #FFF4DF;
 }
@@ -443,7 +443,7 @@ body {
   position: absolute;
   width: 167px;
   height: 74px;
-  left: 906px;
+  left: 880px;
   top: 500px;
 
 }
