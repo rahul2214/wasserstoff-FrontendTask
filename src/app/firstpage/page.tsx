@@ -1,3 +1,4 @@
+"use client"
 import EventPage from '@/components/EventPage'; // Importing EventPage component
 import Link from 'next/link'; // Importing Link component from Next.js
 import FirstPageImages from '@/components/FirstPageImage'; // Importing FirstPageImages component
@@ -32,12 +33,12 @@ export default function Home() {
                 </div>
             </main>
             {/* Navigation buttons */}
-            <div className='toggle'>
-                <div className='rectangle1'>
+            <div className="toggle">
+                <div className="rectangle1">
                     {/* Link to Events page */}
-                    <button className='rectangle2' ><Link href="/firstpage">Events</Link></button>
+                    <button className="rectangle2" ><Link href="/firstpage">Events</Link></button>
                     {/* Link to Collections page */}
-                    <button className='rectangle12'> <Link href="/secondpage">Collections</Link>    </button>
+                    <button className="rectangle12"> <Link href="/secondpage">Collections</Link>    </button>
                 </div>
             </div>
             {/* Displaying Roll component */}
