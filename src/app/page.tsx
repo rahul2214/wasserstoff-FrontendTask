@@ -11,7 +11,7 @@ export default function Home() {
         {/* Header section */}
         <header className="flex flex-row items-center p-0 absolute w-96 h-12 left-24 top-24">
           {/* Logo */}
-          <img src="/AstrixLogo.png" alt="Logo" width={406} height={50} />
+          <Image src="/AstrixLogo.png" alt="Logo" width={406} height={50} />
         </header>
 
         {/* Main content */}
